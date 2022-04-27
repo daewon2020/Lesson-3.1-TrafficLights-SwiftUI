@@ -11,6 +11,7 @@
 		2281BFDF2819D474008F5AD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2281BFDE2819D474008F5AD5 /* ContentView.swift */; };
 		2281BFE12819D476008F5AD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2281BFE02819D476008F5AD5 /* Assets.xcassets */; };
 		2281BFE42819D476008F5AD5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2281BFE32819D476008F5AD5 /* Preview Assets.xcassets */; };
+		2281BFEB2819D48D008F5AD5 /* ColorCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2281BFEA2819D48D008F5AD5 /* ColorCircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		2281BFDE2819D474008F5AD5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2281BFE02819D476008F5AD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2281BFE32819D476008F5AD5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2281BFEA2819D48D008F5AD5 /* ColorCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				2281BFDC2819D474008F5AD5 /* Lesson_3_1_TrafficLights_SwiftUIApp.swift */,
 				2281BFDE2819D474008F5AD5 /* ContentView.swift */,
+				2281BFEA2819D48D008F5AD5 /* ColorCircleView.swift */,
 				2281BFE02819D476008F5AD5 /* Assets.xcassets */,
 				2281BFE22819D476008F5AD5 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2281BFEB2819D48D008F5AD5 /* ColorCircleView.swift in Sources */,
 				2281BFDF2819D474008F5AD5 /* ContentView.swift in Sources */,
 				2281BFDD2819D474008F5AD5 /* Lesson_3_1_TrafficLights_SwiftUIApp.swift in Sources */,
 			);
@@ -284,7 +288,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +317,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
